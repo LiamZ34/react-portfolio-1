@@ -28,8 +28,8 @@
     justify-content: flex-end;
   }
   
-  .toggleButton svg {
-    font-size: 50px;
+  .toggleButton i {
+    font-size: 35px;
   }
   .toggleButton button {
     margin-right: 20px;

@@ -10,10 +10,10 @@
     margin-top: 200px;
   }
   
-  .socialMedia svg {
+  .socialMedia i {
     color: white;
     margin: 20px;
-    font-size: 70px;
+    font-size: 40px;
     cursor: pointer;
   }
   

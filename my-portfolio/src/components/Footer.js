@@ -1,15 +1,15 @@
 import React from 'react'
-
+import '../styles/Footer.css'
 
 
 function Footer() {
   return (
     <div className='footer'>
-        <div>
-        <FontAwesomeIcon icon="fa-brands fa-instagram" />
-        <FontAwesomeIcon icon="fa-brands fa-linkedin" />
-        <FontAwesomeIcon icon="fa-brands fa-github" />
-        <FontAwesomeIcon icon="fa-solid fa-envelope" />
+        <div className='socialMedia'>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-brands fa-github"></i>
+        <i class="fa-solid fa-envelope"></i>
         </div>
         <p> &copy; 2022 Liamh.com </p>
       
