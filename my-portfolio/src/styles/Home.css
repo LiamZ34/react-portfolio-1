@@ -13,23 +13,24 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: #21325e;
+    background-image: url(https://content.r9cdn.net/rimg/dimg/65/2f/21c500c9-city-31189-168816baed7.jpg?crop=true&width=1366&height=768&xhint=5883&yhint=2426);
     color: #f0f0f0;
   }
   
   .about h2 {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 80px;
-    color: #e9d35b;
+    font-size: 70px;
+    color: #21325e;
     height: 50px;
   }
   
   .about .prompt {
     width: 40%;
     font-size: 30px;
+    color: rgb(255, 255, 255);
   }
-  .prompt svg {
-    font-size: 60px;
+  .prompt i {
+    font-size: 50px;
     margin: 5px;
     color: white;
   }

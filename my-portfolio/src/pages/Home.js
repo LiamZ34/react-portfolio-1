@@ -5,7 +5,7 @@ function Home() {
     return (
         <div className='home'>
             <div className='about'>
-                <h2> Hi, name is William Henriquez</h2>
+                <h2> Hi, my name is William Henriquez</h2>
                 <div className='prompt'> 
                 <p> 
                     A software developer who is new to coding.
