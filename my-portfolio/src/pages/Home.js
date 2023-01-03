@@ -3,12 +3,13 @@ import '../styles/Home.css';
 
 function Home() {
     return (
+        
         <div className='home'>
             <div className='about'>
                 <h2> Hi, my name is William Henriquez</h2>
                 <div className='prompt'> 
                 <p> 
-                    A software developer who is new to coding.
+                    A full-stack software developer.
                     </p>
                     <i class="fa-brands fa-github"></i>
                     <i class="fa-brands fa-linkedin"></i>
