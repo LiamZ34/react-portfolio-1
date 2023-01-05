@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { Link, useLocation } from "react-router-dom";
 import "../styles/Navbar.css";
-
+import logo from "../images/logo.png";
 
 function Navbar() {
     const [expandNavbar, setExpandNavbar] = useState(false);
@@ -21,9 +21,13 @@ function Navbar() {
     ><i class="fa-solid fa-bars"></i> </button>        
          </div>
          <div className='links'>
+          <div className='logo'>
+          <Link to="/"><img src={logo} alt="wh logo" width="60" height="60"/></Link>
+          </div>
             <Link to="/"> Home </Link>
             <Link to="/projects"> Projects </Link>
             <Link to="/experience"> Experience </Link>
+            
               </div>
     </div>
   )

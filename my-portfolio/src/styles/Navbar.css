@@ -1,25 +1,43 @@
 .navbar {
     width: 100%;
-    height: 100px;
-    background: #21325e;
+    height: 90px;
+    background: #070c16;   
   }
-  
+
+  .logo {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  img {
+    width: 70px;
+    height: 70px;
+  }
+
   .links {
     width: 100%;
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
+    color: #49422E;
   }
-  
+
   .navbar a {
-    color: white;
+    color: rgb(176, 176, 176);
     text-decoration: none;
     margin: 20px;
     font-size: 25px;
+    transition: ease-out 0.3s;
   }
   
+  .navbar a:hover {
+    color: white;
+  }
+
   .toggleButton {
     width: 100%;
     height: 100px;
@@ -31,6 +49,7 @@
   .toggleButton i {
     font-size: 35px;
   }
+
   .toggleButton button {
     margin-right: 20px;
     background-color: transparent;
@@ -55,21 +74,56 @@
   }
   
   @media only screen and (max-width: 900px) {
-    .navbar a {
+    /* .navbar a {
       width: 70px;
+    } */
+    .logo {
+      width: 50%;
+      height: 90%;
+    }
+    img {
+      width: 60px;
+      height: 60px;
     }
   }
   
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 800px) {
+    .logo {
+      width: 40%;
+      height: 50%;
+      margin-bottom: 35px;
+    }
+  }
+  
+  @media only screen and (max-width: 665px) {
+    .logo {
+      width: 35%;
+      height: 50%;
+      margin-bottom: 35px;
+    }
+  }
+  @media only screen and (max-width: 615px) {
     .toggleButton {
       display: flex;
     }
     #close a {
       display: none;
     }
+    #close .logo {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .logo {
+      height: 10%;
+    }
+    img {
+      width: 90px;
+      height: 90px;
+    }
   }
   
-  @media only screen and (min-width: 600px) {
+  @media only screen and (min-width: 616px) {
     .toggleButton {
       display: none;
     }

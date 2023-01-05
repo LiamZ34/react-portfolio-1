@@ -1,14 +1,14 @@
 import React from 'react'
-import CircleLoader from "react-spinners/CircleLoader";
+import ClimbingBoxLoader from "react-spinners/ClimbingBoxLoader";
 import "../styles/Loading.css";
 
 
 const Loading = () => {
   return (
     <div className='loading'>
-      <CircleLoader 
-        color={'#000584'}
-        size={150}
+      <ClimbingBoxLoader 
+        color={'#49422E'}
+        size={30}
         aria-label="Loading Spinner"
         data-testid="loader"
       />

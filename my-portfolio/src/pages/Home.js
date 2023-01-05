@@ -1,5 +1,7 @@
 import React from 'react';
 import '../styles/Home.css';
+import { Link, UseLocation } from "react-router-dom";
+
 
 function Home() {
     return (
@@ -10,10 +12,16 @@ function Home() {
                 <div className='prompt'> 
                 <p> 
                     A full-stack software developer.
-                    </p>
-                    <i class="fa-brands fa-github"></i>
-                    <i class="fa-brands fa-linkedin"></i>
-                    <i class="fa-solid fa-envelope"></i>
+                    </p>                
+                   {/* <a href='https://github.com/LiamZ34'><i class="fa-brands fa-github"></i></a>
+                    <a href='#'><i class="fa-brands fa-linkedin"></i></a>
+                    <a href='#'><i class="fa-solid fa-envelope"></i></a> */}
+             <div className='home-links'>
+                
+                   <Link to="/resume" className='button'> Resume </Link>
+                 
+                  <Link to="/contact" className='button'> Contact Me </Link>
+                </div>       
                 </div>
                  </div>
             <div className='skills'> 
