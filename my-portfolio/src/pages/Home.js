@@ -25,10 +25,10 @@ function Home() {
                     <a href='#'><i class="fa-brands fa-linkedin"></i></a>
                     <a href='#'><i class="fa-solid fa-envelope"></i></a> */}
           <div className="home-links">
-            <Link to="/resume" className="button">
+            <a href="#about" className="button">
               {" "}
               About{" "}
-            </Link>
+            </a>
 
             <Link to="/contact" className="button">
               {" "}
@@ -97,7 +97,7 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className="aboutme">
+      <div className="aboutme" id="about">
         <div className="cover">
           {" "}
           <img src={about} alt="computer with vscode open" />{" "}
