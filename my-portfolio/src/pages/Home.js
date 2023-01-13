@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/Home.css";
-import { Link, UseLocation } from "react-router-dom";
+// import { Link, UseLocation } from "react-router-dom";
 import about from "../images/about.jpg";
 import reactimg from "../images/react-icon.png";
 import htmlimg from "../images/html.png";
@@ -13,6 +13,8 @@ import apollo from "../images/apollo.png";
 import mongo from "../images/mongo.png";
 import graph from "../images/graph.png";
 import sql from "../images/sql.png";
+import { Link } from "react-scroll"
+
 
 function Home() {
   return (
@@ -25,11 +27,15 @@ function Home() {
                     <a href='#'><i class="fa-brands fa-linkedin"></i></a>
                     <a href='#'><i class="fa-solid fa-envelope"></i></a> */}
           <div className="home-links">
-            <a href="#about" className="button">
+            {/* <a href="#about" className="button">
               {" "}
               About{" "}
-            </a>
+            </a> */}
 
+            <Link spy={true} smooth={true} to="about" className="button">
+              {" "}
+              About{" "}
+            </Link>
             <Link to="/contact" className="button">
               {" "}
               Contact{" "}
@@ -38,7 +44,7 @@ function Home() {
         </div>
       </div>
       <div className="skills">
-        <h1> Skills </h1>
+        <h3> Skills </h3>
         <div className="cardholder">
           <div className="cardholder2">
             <h1> Front-End </h1>
