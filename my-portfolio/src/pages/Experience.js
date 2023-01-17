@@ -13,13 +13,11 @@ function Experience() {
     return (
         
         <div className='experience'> 
-        {isLoading===true? 
-            <Loading/>:
             <VerticalTimeline lineColor='##3e497a'>
                 <VerticalTimelineElement className='vertical-timeline-element--education'
                 date='2019-2014' iconStyle={{background: "#3e497a", color: "#fff"}} icon={<i class="fa-solid fa-car"></i>}> hello </VerticalTimelineElement>
             </VerticalTimeline>
-        }
+        
         </div>
         
     )

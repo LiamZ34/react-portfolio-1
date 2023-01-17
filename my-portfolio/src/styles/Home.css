@@ -89,9 +89,11 @@
     display: flex;
     transition: ease 0.9s;
   }
+
   .cardholder:hover {
     background-color: white;
   }
+
   .cardholder2 {
     width: 100%;
     height: 100%;
@@ -323,6 +325,187 @@
     color: white;
   }
 
+  /* CONTACTSECTION */
+
+/* * {
+    font-size: 40px;
+    background-color: rgb(76, 44, 44);
+} */
+
+.contact {
+    width: 100%;
+    height: 100vh;
+    font-family: "Arial", sans-serif;
+    color: rgb(176, 176, 176);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #070c16;
+  }
+  
+  /* maincard */
+  .mainCard {
+      display: flex;
+      width: 80%;
+      height: 700px;
+      background-color: antiquewhite;
+      border-radius: 30px;
+  }
+  
+  /* iphoneSection */
+  .iphoneSection {
+      flex-basis: 35%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  /* phone */
+  .phone {
+      margin-top: 30px;
+      display: flex;
+      width: 500px;
+      height: 600px;
+      /* background-color: darkgray; */
+      align-items: center;
+      justify-content: center;
+      border-radius: 70px;   
+      flex-direction: column;
+  }
+  
+  .sub-title {
+      font-size: 50px;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+   
+  .iscreen {
+      /* margin-top: 30px;
+      margin-left: 30px; */
+    width: 270px;
+    height: 460px;
+    position: relative;
+    transition: .9s;
+  }
+  
+  .iscreen:hover {
+      transform: scale(1.4);
+      margin-bottom: 150px;
+  }
+  
+  .iscreen .blackscreen {
+      background-color: black;
+      width: 234px;
+      height: 413px;
+      position: absolute;
+      top: 10px;
+      left: 18px;
+      border-radius: 30px;
+      opacity: 60%;
+  }
+  .blackscreen:hover {
+      background-color: transparent;
+      opacity: 80%;
+  }
+  
+  .iscreen span {
+      position: absolute;
+      top: -7px;
+      left: 25px;
+      color: white;
+      z-index: 1000;
+      float: left;
+      font-size: 11px;
+      opacity: 30%;
+  } 
+  
+  .iscreen:hover span {
+    opacity: 100%;
+  }
+  .iscreen .git {
+      width: 39px;
+      height: 31px;
+      margin: 0px;
+      padding: 0px;
+      position: absolute;
+      float: left;
+      top: 42px;
+      left: 21px;
+      z-index: 1000;
+      background-color: transparent;
+      border-radius: 10px;
+  }
+  
+  .iscreen img {
+    width: 270px;
+    height: 438px;
+  }
+  /* phone */
+  
+  /* contactform */
+  .contactForm {
+      /* flex-basis: 60%; */
+      display: flex;
+      width: 100%;
+      background-color: rgb(176, 176, 176);
+      align-items: center;
+      justify-content: center;
+      border-radius: 30px;
+  }
+  
+   form {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: 456px;
+      justify-content: center;
+      align-items: center;
+      /* height: 600px; */
+  }
+   .form {
+      display: flex;
+      width: 100%;
+      height: 600px;
+      color: rgb(8, 8, 33);
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      border-radius: 10px;
+      align-items: center;
+      justify-content: center;
+      margin-top: 0px; 
+      /* margin-left: 180px;  */
+      flex-direction: column;    
+   }
+   
+   /* .form form {
+      display: flex;
+      flex-direction: column;
+      font-size: 30px;
+   } */
+   
+   .form input, form textarea {
+      width: 70%;
+      border: 0;
+      outline: none;
+      background-color: #262626;
+      padding: 15px;
+      margin: 15px 0;
+      color: #fff;
+      font-size: 18px;
+      border-radius: 6px;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   }
+  
+   .btn {
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+      background-color: #f9f8f8;
+      background: rgb(253, 253, 253);
+      color: #49422E;
+      cursor: pointer;
+  }
+
+  /* CONTACTSECTION */
+  
   @media only screen and (max-width: 1200px) {
     .about h2 {
         font-size: 50px;
